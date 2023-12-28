@@ -36,10 +36,13 @@
             ]
         }
     ],
-    "authorization": {
+    "login": {
         "success": true,
         "data": {
             "token" : "qwerty"
         }
+    },
+    "logout": {
+        "success": true
     }
 }
