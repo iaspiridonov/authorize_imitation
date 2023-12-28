@@ -1,3 +1,42 @@
 {
- 
+  "main-menu": [
+    {
+      "title": "Диалоги",
+      "icon": "<svg></svg>",
+      "url": "/",
+    },
+    {
+      "title": "Обмены",
+      "icon": "<svg></svg>",
+      "url": "/",
+    },
+    {
+      "title": "Операторы",
+      "icon": "<svg></svg>",
+      "is_active": true,
+      "url": "/",
+      "children": [
+       {
+        "title": "График работы",
+        "url": "/",
+       },
+       {
+        "title": "Отдел",
+        "children": [
+         {
+          "title": "Первый отдел", 
+          "url": "/",
+         },
+         {
+          "title": "Второй отдел", 
+          "url": "/",
+         },
+        ],
+       },
+      ],
+    }
+  ],
+  "authorization": {
+    "success": true
+  }
 }
